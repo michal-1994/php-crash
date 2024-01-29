@@ -19,3 +19,9 @@ if (str_starts_with($string, "Hello")) {
 if (str_ends_with($string, "World")) {
   // echo 'YES';
 }
+
+$string2 = '<script>alert(1)</script>';
+// echo htmlspecialchars($string2);
+// echo $string2;
+
+printf('%s likes to %s', 'Brad', 'code');
