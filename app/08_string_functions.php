@@ -1,7 +1,21 @@
 <?php
-/* ---------- String Functions -------- */
 
-/*
-  Functions to work with strings
-  https://www.php.net/manual/en/ref.strings.php
-*/
+$string = "Hello World";
+
+// echo $string;
+
+// echo strlen($string);
+// echo strpos($string, 'o');
+// echo strrev($string);
+// echo strtoupper($string);
+// echo str_replace('World', 'Everyone', $string);
+// echo substr($string, 0, 5);
+// echo substr($string, 5);
+
+if (str_starts_with($string, "Hello")) {
+  // echo 'YES';
+}
+
+if (str_ends_with($string, "World")) {
+  // echo 'YES';
+}
