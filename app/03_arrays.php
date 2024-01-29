@@ -1,9 +1,4 @@
 <?php
-/* ----------- Arrrays ----------- */
-
-/*
-  Arrays hold multiple values. Each value in an array is called an "element"
-*/
 
 $numbers = [1, 44, 55, 22];
 $fruits = array('apple', 'orange', 'pear');
