@@ -27,12 +27,17 @@ services:
     networks:
       - network
   app:
+    build:
+      context: .
+      dockerfile: Dockerfile
     image: php:8.1-apache
     container_name: app
     volumes:
       - ./app:/var/www/html
     ports:
       - '8000:80'
+    networks:
+      - network
 
 networks:
   network:
