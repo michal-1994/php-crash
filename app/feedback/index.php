@@ -25,6 +25,7 @@ if (isset($_POST['submit'])) {
 
   if (empty($nameErr) && empty($emailErr) && empty($bodyErr)) {
     $sql = "INSERT INTO feedback (name, email, body) VALUES ('$name', '$email', '$body')";
+
     if (mysqli_query($conn, $sql)) {
       header('Location: /feedback/feedback.php');
     } else {

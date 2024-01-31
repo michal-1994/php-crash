@@ -1,4 +1,7 @@
-<?php include('config/database.php'); ?>
+<?php
+include('config/database.php');
+ob_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
